@@ -125,15 +125,6 @@
 	for(var/mob/living/carbon/xenomorph/potential_xeno AS in GLOB.alive_xeno_list)
 		if(dead_owner.z != potential_xeno.z)
 			continue
-		if(!isxenocarrier(potential_xeno))
-			continue
-
-		var/mob/living/carbon/xenomorph/carrier/selected_carrier = potential_xeno
-		if(selected_carrier.huggers_reserved >= selected_carrier.huggers)
-			continue
-
-		name = selected_carrier.name
-		spawn_point[name] = potential_xeno
 
 	for(var/obj/alien/egg/hugger/potential_egg AS in GLOB.xeno_egg_hugger)
 		if(dead_owner.z != potential_egg.z)

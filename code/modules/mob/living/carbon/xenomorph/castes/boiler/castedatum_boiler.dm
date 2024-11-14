@@ -64,7 +64,6 @@
 		/datum/action/ability/xeno_action/toggle_long_range,
 		/datum/action/ability/activable/xeno/spray_acid/line/boiler,
 		/datum/action/ability/xeno_action/dump_acid,
-		/datum/action/ability/xeno_action/place_trap,
 	)
 
 /datum/xeno_caste/boiler/normal
@@ -91,5 +90,4 @@
 		/datum/action/ability/xeno_action/toggle_bomb,
 		/datum/action/ability/activable/xeno/spray_acid/line/boiler,
 		/datum/action/ability/xeno_action/dump_acid,
-		/datum/action/ability/xeno_action/place_trap,
 	)

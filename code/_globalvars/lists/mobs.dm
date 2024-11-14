@@ -128,7 +128,6 @@ GLOBAL_LIST_INIT(xeno_types_tier_one, list(
 
 GLOBAL_LIST_INIT(xeno_types_tier_two, list(
 	/datum/xeno_caste/bull,
-	/datum/xeno_caste/carrier,
 	/datum/xeno_caste/hivelord,
 	/datum/xeno_caste/hunter,
 	/datum/xeno_caste/panther,

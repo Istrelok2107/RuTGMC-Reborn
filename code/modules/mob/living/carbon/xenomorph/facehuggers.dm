@@ -168,9 +168,6 @@
 	user.update_icons()
 
 /obj/item/clothing/mask/facehugger/attack_self(mob/user)
-	if(isxenocarrier(user))
-		var/mob/living/carbon/xenomorph/carrier/C = user
-		C.store_hugger(src)
 	if(ishuman(user))
 		if(stat == DEAD)
 			return
